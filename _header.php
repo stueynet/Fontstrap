@@ -12,14 +12,14 @@ require_once('config/config.php');
 	<meta name="author" content="">
 
 	<!-- Le styles -->
-	<link href="fontstrap/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="fontstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<style type="text/css">
 		body {
 			padding-top: 60px;
 			padding-bottom: 40px;
 		}
     </style>
-	<link href="<?php echo $site_url; ?>/fontstrap/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="<?php echo $site_url; ?>/fontstrap/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	<link href="<?php echo $site_url; ?>/fontstrap/fontawesome/css/font-awesome.css" rel="stylesheet">
 	<link href="<?php echo $site_url; ?>/assets/css/theme.css" rel="stylesheet">
 
