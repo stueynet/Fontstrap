@@ -11,20 +11,20 @@ if(in_array($_SERVER['HTTP_HOST'], $whitelist)){
 
 
 // set up some globals
-$site_name = 'Project';
+$site_name = 'Fontstrap';
 
 if($localhost){
 		
-	$site_url = 'http://localhost/~stueynet/project';
+	$site_url = 'http://localhost/~stueynet/fontstrap';
 	$dbhost = 'localhost';
-	$dbname = 'jrill';
+	$dbname = 'fontstrap';
 	$dbuser = 'root';
 	$dbpass = 'root';
 		
 } else { 
-	$site_url = 'http://project.com'; 
+	$site_url = 'http://fontstrap.com'; 
 	$dbhost = 'localhost';
-	$dbname = 'jrill';
+	$dbname = 'fontstrap';
 	$dbuser = 'root';
 	$dbpass = 'root';
 }
