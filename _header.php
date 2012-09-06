@@ -30,7 +30,7 @@ require_once('config/config.php');
 
 
 	<!--[if IE 7]>
-		<link rel="stylesheet" href="fontawesome/css/font-awesome-ie7.css">
+		<link rel="stylesheet" href="<?php echo $site_url; ?>/fontstrap/fontawesome/css/font-awesome-ie7.css">
 	<![endif]-->
 
 	<!-- Le fav and touch icons -->
