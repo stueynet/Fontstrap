@@ -12,15 +12,15 @@ require_once('config/config.php');
 	<meta name="author" content="">
 
 	<!-- Le styles -->
-	<link href="fontstrap/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
 	<style type="text/css">
 		body {
 			padding-top: 60px;
 			padding-bottom: 40px;
 		}
     </style>
-	<link href="<?php echo $site_url; ?>/fontstrap/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="<?php echo $site_url; ?>/fontstrap/fontawesome/css/font-awesome.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome-ie7.css" rel="stylesheet">	
 	<link href="<?php echo $site_url; ?>/assets/css/theme.css" rel="stylesheet">
 
 	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -30,7 +30,7 @@ require_once('config/config.php');
 
 
 	<!--[if IE 7]>
-		<link rel="stylesheet" href="<?php echo $site_url; ?>/fontstrap/fontawesome/css/font-awesome-ie7.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/2.0/css/font-awesome-ie7.css" rel="stylesheet">
 	<![endif]-->
 
 	<!-- Le fav and touch icons -->
